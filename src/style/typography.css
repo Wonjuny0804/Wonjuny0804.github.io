@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("../fonts/NotoSansKR-Regular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("../fonts/NotoSansKR-Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("../fonts/NotoSansKR-Bold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-Bold.ttf");
+  font-weight: 700;
+}

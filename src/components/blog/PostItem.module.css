@@ -1,0 +1,36 @@
+.post-wrapper {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.post-title {
+  font-weight: 700;
+  text-decoration: none;
+  color: #000000;
+  margin: 0;
+}
+
+.postTime {
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.54);
+  margin: 0;
+  margin-top: 8px;
+}
+
+.post-content {
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  color: var(--primary-text-color);
+  display: -webkit-box;
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 8px;
+}

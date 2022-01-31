@@ -1,0 +1,7 @@
+@import url("./typography.css");
+
+body {
+  margin: 0;
+  font-family: "DM Sans" "NotoSansKR" "Noto Sans";
+  font-weight: 400;
+}

@@ -1,0 +1,22 @@
+.header-wrapper {
+  margin: 0;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 0;
+}
+
+.header-title {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.header-line {
+  width: 100px;
+  height: 2px;
+  background-color: #000000;
+}

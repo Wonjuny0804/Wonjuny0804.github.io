@@ -6,7 +6,7 @@ import Layout from "../../components/layout";
 const BlogPost = ({ data }) => {
   console.log(data);
   return (
-    <Layout pageTitle="Super Cool Blog Posts">
+    <Layout pageTitle={data.mdx.frontmatter.title}>
       <p>{data.mdx.frontmatter.date}</p>
       <MDXRenderer>{data.mdx.body}</MDXRenderer>
     </Layout>

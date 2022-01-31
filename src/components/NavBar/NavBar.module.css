@@ -1,0 +1,30 @@
+.nav-bar {
+  margin: 0;
+}
+
+.nav-items {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 12px;
+  list-style: none;
+}
+
+.nav-item {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Noto Sans";
+  font-weight: 700;
+  color: #000000;
+}
+
+.nav-item:visited {
+  color: #000000;
+}
+
+.color-render {
+  background: linear-gradient(to right, #fbcac9, #8ca6ce);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,8 +1,4 @@
-@import "../css/typography.css";
-
-body {
-  font-family: "DM Sans";
-}
+@import "../style/typography.css";
 
 .container {
   margin: auto;
@@ -35,4 +31,11 @@ body {
 .page-layout {
   width: 800px;
   margin: auto;
+}
+
+.color-render {
+  background: linear-gradient(to right, #fbcac9, #8ca6ce);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
