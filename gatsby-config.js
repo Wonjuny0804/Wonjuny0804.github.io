@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `My First Gatsby blog`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `개발자 블로그`,
+    siteUrl: `https://wonjuny0804.github.io`,
   },
   plugins: [
     "gatsby-plugin-mdx",
