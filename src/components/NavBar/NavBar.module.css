@@ -23,7 +23,7 @@
 }
 
 .color-render {
-  background: linear-gradient(to right, #fbcac9, #8ca6ce);
+  background: linear-gradient(to right, #e7a150, #e7d4a6);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
