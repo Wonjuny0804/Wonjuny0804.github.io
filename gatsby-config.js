@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/public",
+  pathPrefix: "",
   siteMetadata: {
     title: `개발자 블로그`,
     siteUrl: `https://wonjuny0804.github.io`,
