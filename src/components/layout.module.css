@@ -1,7 +1,13 @@
+@import "../css/typography.css";
+
+body {
+  font-family: "DM Sans";
+}
+
 .container {
   margin: auto;
   max-width: 500px;
-  font-family: sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 .heading {
@@ -24,4 +30,9 @@
   color: gray;
   font-weight: 700;
   margin: 3rem 0;
+}
+
+.page-layout {
+  width: 800px;
+  margin: auto;
 }
