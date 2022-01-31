@@ -4,6 +4,8 @@ import { MDXRenderer } from "gatsby-plugin-mdx";
 import { graphql, Link } from "gatsby";
 import PostItem from "../components/blog/PostItem";
 import { postList } from "../style/blog.module.css";
+import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
+deckDeckGoHighlightElement();
 
 const BlogPage = ({ data }) => {
   console.log(data);
