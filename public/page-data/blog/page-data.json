@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-blog-js",
     "path": "/blog/",
-    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"title":"Next.js Basics(1)","date":"2021-06-06"},"id":"ebd4a6b0-d017-5e39-9fe0-e7ad79f12d3e","slug":"nextjs-basics-1","excerpt":"감사하게도 취업을 준비한지 1달 만에 그래도 원했던 괜찮은 회사에 프론트엔드 엔지니어로 취업을 하게되었다. 취업을 한 회사는 React, Typescript를 쓰는 회사였는데 SSR을 위해서 Next.js를 사용하고 거의 모든 코드는 Next…"},{"frontmatter":{"title":"My First Post","date":"2021-07-23"},"id":"b87c152c-a63e-57c9-8ec0-a8a928c064fd","slug":"my-first-post","excerpt":"This is my first blog post! Isn't it  great ?\nSome of my  favorite  things are: Petting dogs Singing Eating potato-based foods…"}]}},"pageContext":{}},
+    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"title":"My First Post","date":"2021-07-23"},"id":"b87c152c-a63e-57c9-8ec0-a8a928c064fd","slug":"my-first-post","excerpt":"This is my first blog post! Isn't it  great ?\nSome of my  favorite  things are: Petting dogs Singing Eating potato-based foods…"},{"frontmatter":{"title":"Next.js Basics(1)","date":"2021-06-06"},"id":"ebd4a6b0-d017-5e39-9fe0-e7ad79f12d3e","slug":"nextjs-basics-1","excerpt":"감사하게도 취업을 준비한지 1달 만에 그래도 원했던 괜찮은 회사에 프론트엔드 엔지니어로 취업을 하게되었다. 취업을 한 회사는 React, Typescript를 쓰는 회사였는데 SSR을 위해서 Next.js를 사용하고 거의 모든 코드는 Next…"}]}},"pageContext":{}},
     "staticQueryHashes": ["3159585216"]}
