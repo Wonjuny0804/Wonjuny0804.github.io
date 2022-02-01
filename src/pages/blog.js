@@ -8,7 +8,6 @@ import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/
 deckDeckGoHighlightElement();
 
 const BlogPage = ({ data }) => {
-  console.log(data);
   return (
     <Layout>
       <section className={postList}>
