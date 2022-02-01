@@ -8,10 +8,10 @@ import {
 } from "./PostItem.module.css";
 import moment from "moment";
 
-const PostItem = ({ node, key }) => {
+const PostItem = ({ node }) => {
   return (
-    <Link className={postTitle} to={`/blog/${node.slug}`}>
-      <article className={postWrapper} key={key}>
+    <Link className={postTitle} to={`/blog/${node.slug}`} key={node.id}>
+      <article className={postWrapper}>
         <h2 className={postTitle}>{node.frontmatter.title}</h2>
         <p className={postContent}>{node.excerpt}</p>
         <p className={postTime}>

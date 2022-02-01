@@ -11,8 +11,10 @@ const BlogPage = ({ data }) => {
   return (
     <Layout>
       <section className={postList}>
-        {data.allMdx.nodes.map((node) => (
-          <PostItem node={node} key={node.id} />
+        {data.allMdx.nodes.map((node, index) => (
+          <div key={index}>
+            <PostItem node={node} />
+          </div>
         ))}
       </section>
     </Layout>
