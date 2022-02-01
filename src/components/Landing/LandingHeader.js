@@ -10,6 +10,7 @@ import {
   selfContent,
 } from "./LandingHeader.module.css";
 import profileImg from "../../assets/wonjun-1.png";
+import profileGif from "../../assets/EmojiMovie665388355.gif";
 
 const LandingHeader = () => {
   return (
@@ -22,7 +23,7 @@ const LandingHeader = () => {
       </div>
 
       <section className={selfIntroduce}>
-        <img src={profileImg} alt="profile image" className={profileImage} />
+        <img src={profileGif} alt="profile image" className={profileImage} />
         <div className={selfContent}>
           <h2>Hallo, my name is Wonjun</h2>
           <p>A frontend Dev, who needed a writing space</p>

@@ -4,7 +4,6 @@ import * as React from "react";
 import Layout from "../../components/layout";
 
 const BlogPost = ({ data }) => {
-  console.log(data);
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
       <p>{data.mdx.frontmatter.date}</p>

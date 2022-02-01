@@ -3,15 +3,33 @@ import LandingHeader from "../components/Landing/LandingHeader";
 import LandingBody from "../components/Landing/LandingBody";
 import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
 import "../style/globals.css";
+import { graphql } from "gatsby";
 deckDeckGoHighlightElement();
 
-const IndexPage = () => {
+const IndexPage = ({ data }) => {
+  console.log(data);
   return (
     <main>
       <LandingHeader />
-      <LandingBody />
+      <LandingBody posts={data.allMdx.nodes} />
     </main>
   );
 };
+
+export const query = graphql`
+  query {
+    allMdx {
+      nodes {
+        slug
+        frontmatter {
+          date
+          title
+        }
+        id
+        excerpt
+      }
+    }
+  }
+`;
 
 export default IndexPage;

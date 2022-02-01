@@ -11,6 +11,11 @@ const NavBar = () => {
             No 개념 <span className={colorRender}>Research</span> Blog
           </Link>
         </li>
+        <li>
+          <Link to="/blog" className={navItem}>
+            Blog
+          </Link>
+        </li>
       </ul>
     </nav>
   );
