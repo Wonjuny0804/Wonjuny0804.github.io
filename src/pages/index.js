@@ -7,7 +7,6 @@ import { graphql } from "gatsby";
 deckDeckGoHighlightElement();
 
 const IndexPage = ({ data }) => {
-  console.log(data);
   return (
     <main>
       <LandingHeader />

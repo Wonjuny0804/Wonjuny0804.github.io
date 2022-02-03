@@ -28,7 +28,6 @@ const Layout = ({ pageTitle, children, home }) => {
         {pageTitle} | {data.site.siteMetadata.title}
       </title>
       <NavBar />
-
       <main>
         <h1 className={heading}>{pageTitle}</h1>
         {children}
