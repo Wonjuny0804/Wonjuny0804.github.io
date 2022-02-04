@@ -7,8 +7,10 @@
 }
 
 .heading {
-  color: rebeccapurple;
+  color: #363636;
+  margin: 12px 0;
 }
+
 .nav-links {
   display: flex;
   list-style: none;
