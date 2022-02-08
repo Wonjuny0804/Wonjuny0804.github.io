@@ -2,7 +2,7 @@ import React from "react";
 import { mainStyle, logoButton, rightItems } from "./Footer.module.css";
 import Github from "../../assets/GitHub-Mark-120px-plus.png";
 
-const Footer = () => {
+const Footer = React.memo(() => {
   return (
     <footer className={mainStyle}>
       <span>© WonjunJang. All rights reserved.</span>
@@ -13,6 +13,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
+});
 
 export default Footer;
