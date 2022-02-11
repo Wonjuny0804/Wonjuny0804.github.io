@@ -1,0 +1,62 @@
+---
+title: "Solidity lesson 1"
+date: "2022-02-12"
+category: "Solidity"
+---
+
+설치해야하는 라이브러리는 다음과 같다.
+
+```bash
+npm install web3 ganache-cli mocha
+```
+
+- web3
+- ganache-cli
+- mocha
+
+### Web3 Versioning
+
+Web3.js를 쓰면 이더리움 네트워크랑 통신할 수 있음.
+
+![]()
+
+현재는 v1이어서 async/await같은 것들을 쓸 수 있는데 이전 버전은 이를 지원하지 않아서 이를 지원하지 않은 시기에 쓰여진
+코드를 보게 될 가능성이 크다.
+
+## mocha
+
+| function   | Purpose                          |
+| ---------- | -------------------------------- |
+| it         | Run a test and make an assertion |
+| describe   | Groups together 'it' functions   |
+| beforeEach | Execute some general setup code. |
+
+### 작성된 코드
+
+```js
+class Car {
+  park() {
+    return "stopped";
+  }
+
+  drive() {
+    return "vroom";
+  }
+}
+
+let car;
+
+beforeEach(() => {
+  car = new Car();
+});
+
+describe("Car", () => {
+  it("park should return stopped", () => {
+    assert.equal(car.park(), "stopped");
+  });
+
+  it("can drive", () => {
+    assert.equal(car.drive(), "vroom");
+  });
+});
+```
