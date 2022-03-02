@@ -8,7 +8,7 @@ deckDeckGoHighlightElement();
 
 const IndexPage = ({ data }) => {
   return (
-    <main>
+    <main style={{ marginBottom: "100px" }}>
       <LandingHeader />
       <LandingBody posts={data.allMdx.nodes} />
     </main>
