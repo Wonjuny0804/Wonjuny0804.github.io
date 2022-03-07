@@ -15,12 +15,10 @@ const LandingHeader = () => {
   return (
     <div className={headerWrapper}>
       <NavBar />
-
       <div className={headerContent}>
         <h1 className={headerTitle}>개념 없는 개발 블로그</h1>
         <div className={headerLine}></div>
       </div>
-
       <section className={selfIntroduce}>
         <img src={profileImg} alt="profile image" className={profileImage} />
         <div className={selfContent}>
@@ -28,6 +26,7 @@ const LandingHeader = () => {
           <p>A frontend Dev, who needed a writing space</p>
         </div>
       </section>
+      hello everyone
     </div>
   );
 };
